@@ -1,0 +1,112 @@
+Reset * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  background-color: #f6f6f7;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+  color: #ff6b82;
+  text-align: center;
+}
+
+/* .container {
+  margin: auto;
+  background-color: black;
+  height: 800px;
+  width: 800px;
+} */
+
+/* .container {
+  margin: auto;
+  background-color: black;
+  height: 442px;
+  width: 581px;
+} */
+
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 581px;
+  overflow: auto;
+  padding: 20px 20px;
+  background-color: #fff;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-card {
+  height: 74px;
+  width: 342px;
+  /* background-color: black; */
+  /* border: solid #ff6b82 1px; */
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 15px;
+  display: flex;
+  overflow: hidden;
+  /* box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11); */
+}
+
+.small-card-left {
+  width: 20%;
+  height: inherit;
+  background-color: #ff6b82;
+  color: white;
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  border-right: 2.5px dotted white;
+
+}
+
+.small-card-right {
+  width: 80%;
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.info span {
+  font-weight: bold;
+}
+
+.text {
+  margin-top: -6px;
+}
+
+/* Hide the default radio button */
+.custom-radio input[type="radio"] {
+  display: none;
+}
+
+.tag {
+  color: #ff6b82;
+}
+
