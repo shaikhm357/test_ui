@@ -59,7 +59,6 @@ h3 {
   justify-content: center; /* Center items vertically */
   align-items: center; /* Center items horizontally */
   border-right: 2.5px dotted white;
-
 }
 
 .small-card-right {
@@ -95,3 +94,52 @@ h3 {
   color: #ff6b82;
 }
 
+.card {
+  margin-bottom: 20px;
+}
+
+.big-card {
+  height: 172px;
+  width: 342px;
+  border: 1px #ff6b82 solid;
+  border-radius: 15px;
+}
+
+.total {
+  width: 342px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #ff6b82;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 342px;
+  padding: 12px;
+  background-color: #ff6b82; /* Background color */
+  border: none; /* Removes the border */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+  font-size: larger;
+}
+
+button:hover {
+  background-color: #ff4a61; /* Darker shade for hover effect */
+}
+
+.poweredby{
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
