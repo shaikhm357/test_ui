@@ -52,9 +52,9 @@ h3 {
   font-size: larger;
   text-align: center;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   border-right: 2.5px dotted white;
 }
 
@@ -96,10 +96,12 @@ h3 {
 }
 
 .big-card {
-  height: 172px;
+  height: inherit;
   width: 342px;
   border: 1px #ff6b82 solid;
   border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .total {
@@ -122,8 +124,10 @@ h3 {
 button {
   width: 342px;
   padding: 12px;
-  background-color: #ff6b82; /* Background color */
-  border: none; /* Removes the border */
+  background-color: #ff6b82;
+  /* Background color */
+  border: none;
+  /* Removes the border */
   cursor: pointer;
   transition: background-color 0.3s ease;
   color: white;
@@ -131,12 +135,40 @@ button {
 }
 
 button:hover {
-  background-color: #ff4a61; /* Darker shade for hover effect */
+  background-color: #ff4a61;
+  /* Darker shade for hover effect */
 }
 
-.poweredby{
-    font-size: smaller;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.poweredby {
+  font-size: smaller;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-card-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.big-card-input {
+  margin-top: 20px;
+}
+
+.dropdown-container {
+  display: flex;
+  gap: 10px;
+  /* Space between dropdowns */
+  align-items: center;
+  justify-content: right;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  /* Align items vertically center */
+}
+
+/* Style dropdowns if needed */
+select {
+  padding: 10px;
+  font-size: 16px;
 }
